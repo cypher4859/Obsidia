@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "obsidia"
+version = "0.1.0"
+description = "A modular plugin system that manages and interfaces with variety packages"
+authors = ["cypher4859 <cypher4859_git@blackcypher.io>"]
+readme = "README.md"
+packages = [{include = "obsidia"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.3"
+pylint = "^2.16.1"
+pytest = "^7.2.1"
+setuptools = "^67.2.0"
+
+[tool.poetry.scripts]
+obsidia = "obsidia.obsidia:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
