@@ -1,4 +1,4 @@
-from obsidia import obsidia
+import obsidia
 
 if __name__ == "__main__":
     obsidia.cli()

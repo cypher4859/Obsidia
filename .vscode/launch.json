@@ -16,7 +16,7 @@
             "name": "Obsidia Entrypoint",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/__main__.py",
+            "program": "obsidia",
             "console": "integratedTerminal",
             "justMyCode": true
         }
